@@ -1,0 +1,65 @@
+# Site
+repository: vicky-mao/vicky-mao.github.io
+# favicon: images/favicon.ico
+
+# Personal info
+name: Vicky Mao
+title: Senior Consultant
+email: vicky.mao@gmail.com
+website: https://vicky-mao.github.io
+
+# Social links
+#twitter_username: facespics
+#github_username:  sproogen
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: chillwildlife
+linkedin_username: vicky-mao-6ab988138
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi there, my name's Vicky and I'm a senior consultant. Apart from doing consultations for corporate strategy projects I also have got rich experience in laying out strategic plans for infrastructure construction projects. I have worked at a number of companies gaining teamwork and leadership skills.
+
+  I am most skilled in: <mark>Corporate Strategy</mark> and <mark>Making 宝 Happy</mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Rock climbing
+   - Gaming
+   - Knitting
+   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-145797159-1
