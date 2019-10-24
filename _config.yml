@@ -58,8 +58,4 @@ sass:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-analytics
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-145797159-1

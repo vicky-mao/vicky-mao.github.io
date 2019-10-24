@@ -1,10 +1,17 @@
 - layout: left
-  name: Harvard University
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
-  quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  name: University of Malaya
+  dates: Feb 2015 - Oct 2016
+  qualification: MSc Economics
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+    - IELTS 6.5 / Top GPA
+    - Thesis achieved top grades and was documented by Centre for Malaysian Chinese Studies
+    - Software skills: SPSS / Eviews / Excel / Word / PPT
 
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+- layout: left
+  name: South-Central University for Nationalities
+  dates: Sep 2009 - Jun 2013
+  qualification: BSc Economics
+  description: | # this will include new lines to allow paragraphs
+    - GPA 3.5 out of 4
+    - Top student honor throughout the 4 years
+
