@@ -1,4 +1,21 @@
 - layout: left
+  company: Shenzhen Meso-Economics Consulting Co., Ltd.
+  link: http://www.szmec.cn
+  job_title: Lead Consultant
+  dates: Mar 2018 - Present
+  quote: >
+    Utilizing corporate strategy skills to assist various companies and government organizations in their mission critical projects and campaigns
+  description: | # this will include new lines to allow paragraphs
+    Key projects include
+    - Dapeng Public Service Research
+    - Shenzhen Business Environment Research
+    - Longhua District Industrial Development Research
+    - Longgang District Financial Industry Assessment
+    - Longgang District Financial Talent Research
+    - Longhua District Business Environment Optimization Project
+    - for SIIFMC's 5-year Plan (2019 ~ 2023)
+
+- layout: left
   company: Keystone Foods Ltd.
   link: http://www.keystonefoods.com
   job_title: Key Account Executive
