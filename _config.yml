@@ -1,49 +1,254 @@
 # Site
-repository: vicky-mao/vicky-mao.github.io
-# favicon: images/favicon.ico
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
 
 # Personal info
 name: Vicky Mao
-title: Senior Consultant
+title: Management Consultant
 email: 522631185@qq.com
-website: https://vicky-mao.github.io
+website: https://vicky-mao.github.io/cn
+
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
 #twitter_username: facespics
 #github_username:  sproogen
+# stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: chillwildlife
+#instagram_username: jameswgrant
 linkedin_username: vicky-mao-6ab988138
+# xing_username: jekyll
 # pinterest_username: jekyll
 #youtube_username: globalmtb
 # googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+  #icon: fas fa-globe
+  #url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+google_analytics: "UA-145797159-1"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi there, my name's Vicky and I'm a senior consultant. Apart from doing consultations for corporate strategy projects I also have got rich experience in laying out strategic plans for infrastructure construction projects. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi there, my name’s Vicky and I’m a senior consultant in meso-economy arena. I have got rich experience in laying out strategic plans for quite a number of types of projects including policy, industrialization, land & civil issues, etc., providing intellectual support for corporations, governments and NGOs.
 
-  I am most skilled in: <mark>Research & Analysis</mark> and <mark>Corporate Strategy</mark>
+  Projects I worked on covered a wide range of topics, from strategy to operations. In a typical engagement, I own a work stream to deliver the end recommendation. Typical activities involve performing analysis of the particular problems as defined for the work stream, including identifying and prioritizing issues for further analysis, synthesizing the insights from the analyses, developing recommendations based on the synthesis, and creating plans to implement the recommendations.
 
-# Projects Section
-# projects_title: Projects
+  I am most skilled in <mark>quantitative</mark>, <mark>analytical</mark> and <mark>conceptual</mark> problem-solving.
 
-# Experience Section
-# experience_title: Experience
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Fengshun Industrial Development
+        caption: May 2019 – Mar 2020
+        # link_text: Project Website
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Topic Research on Industrial Development of Fengshun Section of Longgang District
 
-# Education Section
-# educaton_title: Education
+      - layout: left
+        title: Longhua Infrastructure Construction
+        caption: Mar 2019 – Present
+        description: | # this will include new lines to allow paragraphs
+          Research Report on Acceleration of Infrastructure Construction for Longhua District
 
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my career as a corporate strategy consultant, I'm also happy wife of an intelligent man and proud mom of two cute kids. My family is the strongest support behind my success and certainly one of the most important part of my life.
+      - layout: left
+        title: Dalang Economic Trend
+        caption: Mar 2019 – Present
+        description: | # this will include new lines to allow paragraphs
+          Economic Trend Analysis for Dalang District
+
+      - layout: left
+        title: Luohu Livable Communities
+        caption: Oct 2019 – Oct 2019
+        description: | # this will include new lines to allow paragraphs
+          Research on Nurturing Livable Communities for Luohu District
+
+      - layout: left
+        title: Longhua Drainage Corp
+        caption: Jun 2019 – Sep 2019
+        description: | # this will include new lines to allow paragraphs
+          Longhua Drainage Corporation’s 5-Year Strategic Development Plan
+
+      - layout: left
+        title: Longgang Science & Innovation
+        caption: Sep 2018 – Aug 2019
+        description: | # this will include new lines to allow paragraphs
+          Comparison Analysis of Longgang’s Science & Innovation Policy and that of other more advanced districts 🌟
+
+      - layout: left
+        title: Non-State-Owned Enterprises
+        caption: Jun 2019 – Jul 2019
+        description: | # this will include new lines to allow paragraphs
+          Research Report on Accelerating Development of Non-State-Owned Enterprises 🌟
+
+      - layout: left
+        title: Greater Bay Area Business Synergy
+        caption: Mar 2019 – Jul 2019
+        description: | # this will include new lines to allow paragraphs
+          Research Report on Promoting Synergy among Non-State-Owned Enterprises within the Greater Bay Area 🌟
+
+      - layout: left
+        title: Longhua Party Service Centers
+        caption: May 2019 – Jun 2019
+        description: | # this will include new lines to allow paragraphs
+          Research Report on the Status Quo across All Levels of Party Service Centers for Longhua District
+
+      - layout: left
+        title: Baoan Second-Hand Rental
+        caption: May 2019 – May 2019
+        description: | # this will include new lines to allow paragraphs
+          Analysis on Baoan District’s Second-Hand Rental Business
+
+      - layout: left
+        title: Dapeng Public Service
+        caption: Mar 2018 - May 2019
+        description: | # this will include new lines to allow paragraphs
+          Research Report on Public Service Upgrade as an Answer to Dapeng New District’s Population Growth
+
+      - layout: left
+        title: Baoan Enterprise Services
+        caption: Apr 2019 – Apr 2019
+        description: | # this will include new lines to allow paragraphs
+          Research on Enterprise Services for Baoan District
+
+      - layout: left
+        title: Longgang Public Service
+        caption: Mar 2019 – Apr 2019
+        description: | # this will include new lines to allow paragraphs
+          Research Report on Public Service Upgrade as an Answer to Longgang District’s Population Growth
+
+      - layout: left
+        title: Guanlan Industrial Development
+        caption: Jul 2018 - Nov 2018
+        description: | # this will include new lines to allow paragraphs
+          Topic Research on Industrial Development of L203 Section of Guanlan North, Longhua District
+
+      - layout: left
+        title: Longgang Financial Talent
+        caption: May 2018 - Nov 2018
+        description: | # this will include new lines to allow paragraphs
+          Research on Longgang District’s Achievements, Issues and Solutions in Attracting and Retaining Financial Talents
+
+      - layout: left
+        title: Longgang Financial Industry
+        caption: May 2018 - Nov 2018
+        description: | # this will include new lines to allow paragraphs
+          Interim Assessment of the 13th Five-Year Plan on Financial Industry for Longgang District 🌟
+
+      - layout: left
+        title: Longhua Business Environment
+        caption: May 2018 - Nov 2018
+        description: | # this will include new lines to allow paragraphs
+          Improvement of Administrative Services and Optimization of Business Environment for Longhua District
+
+      - layout: left
+        title: SIIFMC 5-Year Plan (2019 ~ 2023)
+        caption: May 2018 – Oct 2018
+        description: | # this will include new lines to allow paragraphs
+          5-year Plan for Shenzhen Infrastructure Investment Fund Management Corporation Limited
+
+      - layout: left
+        title: Shenzhen Business Environment
+        caption: Apr 2018 - Jul 2018
+        description: | # this will include new lines to allow paragraphs
+          Research Report on Establishing World-Class Business Environment in Shenzhen 🌟
+
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Shenzhen Meso-Economics Consulting Co., Ltd.
+        link: http://www.szmec.cn
+        # link_text: boringcompany.com
+        sub_title: Lead Management Consultant
+        caption: Mar 2018 - Present
+        quote: >
+          Utilizing corporate strategy skills to assist various companies and government organizations in their mission critical projects and campaigns
+        description: | # this will include new lines to allow paragraphs
+          Key projects include
+          - Dapeng Public Service Research
+          - Shenzhen Business Environment Research
+          - Longhua District Industrial Development Research
+          - Longgang District Financial Industry Assessment
+          - Longgang District Financial Talent Research
+          - Longhua District Business Environment Optimization Project
+          - for SIIFMC's 5-year Plan (2019 ~ 2023)
+
+      - layout: left
+        title: Keystone Foods Ltd.
+        link: http://www.keystonefoods.com
+        # link_text: boringcompany.com
+        sub_title: Key Account Executive
+        caption: Sep 2016 - Sep 2017
+        quote: >
+          Applying market strategies in dealing with key accounts, maitaining existing as well as acquiring new businesses
+        description: | # this will include new lines to allow paragraphs
+          Key achievements include
+          - Winning a RMB 100,000,000 share in bid for Burger King's annual poultry meat procurement campaign
+          - Acquiring businesses from Wuxi Baijila Food Management Corporation that's worth a monthly net profit of over RMB 100,000
+          - Independently following up with White Castle (China) Ltd., signing up a 5-year sole provider contract
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Malaya
+        caption: Feb 2015 - Oct 2016
+        sub_title: MSc Economics
+        description: | # this will include new lines to allow paragraphs
+          - IELTS 6.5 / GPA 3.5
+          - Thesis achieved top grades and was documented by Centre for Malaysian Chinese Studies
+          - Software skills: SPSS / Eviews / Excel / Word / PPT
+
+      - layout: left
+        title: South-Central University for Nationalities
+        caption: Sep 2009 - Jun 2013
+        sub_title: BSc Economics
+        description: | # this will include new lines to allow paragraphs
+          - GPA 3.5 out of 4
+          - Top student honor throughout the 4 years
+
+  #- title: A Little More About Me
+    #layout: text
+    #content: | # this will include new lines to allow paragraphs
+      #Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      #- Rock climbing
+      #- Gaming
+      #- Knitting
+      #- [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      #Look at this cool image
+      #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -53,5 +258,4 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
-
+ - jekyll-seo-tag
